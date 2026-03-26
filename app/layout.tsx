@@ -1,13 +1,13 @@
-import "./globals.css";
-export const metadata = {
-  title: "Kill Busyness | NFR Leadership",
-  description: "Stop the follow-up tax. Move to High-Performance.",
-};
+import './globals.css'
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en">
       <body>{children}</body>
     </html>
-  );
+  )
 }
